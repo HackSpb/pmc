@@ -1,0 +1,47 @@
+/*Выпрямляем рамки и убираем отступ снизу*/
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+/*Добавляем внутренний фон*/
+.jumbotron{
+	background-image: url("../image/8.jpg");
+}
+
+/*Прозрачный прямоугольник, белый цвет, отступ снизу*/
+.jumbotron .container{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-bottom: 25px;
+}
+/* Отцетрока текста в центральном прямоугольнике */
+.jumbotron .container h1,
+.jumbotron .container p {
+	text-align: center;
+}
+/*Отступ снизу для всех картинок*/
+img {
+	margin-bottom: 15px;
+}
+
+/*Дата новости окрашивается в серый цвет*/
+span{
+	color: grey;
+}
+
+/*У блоков div в блоке новостей удаляются боковые padding(-и) */
+.row .col-lg-3 div{
+	padding: 0;
+}
+
+/*Отцентровка кнопки обновления новостной ленты*/
+.button_ref{
+	width: 204px;
+	margin: 0 auto;
+}
+
+/*Вырисовывает горизонтальную линию для второй панели навигации*/
+.nav-second{
+	border-top: 1px solid gray;
+	border-radius: 0;
+}
